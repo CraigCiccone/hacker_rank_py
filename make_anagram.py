@@ -1,5 +1,6 @@
 # EASY
 
+
 def makeAnagram(a, b):
     removals = 0
     chars_a = {}
@@ -31,7 +32,7 @@ def makeAnagram(a, b):
     return removals
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(makeAnagram("cde", "dcf"))
     print(makeAnagram("cde", "abc"))
     print(makeAnagram("fcrxzwscanmligyxyvym", "jxwtrhvujlmrpdoqbisbwhmgpmeoke"))

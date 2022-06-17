@@ -5,7 +5,7 @@ def alternatingCharacters(s):
     deletions = 0
 
     for idx in range(len(s)):
-        if idx + 1 != len(s) and s[idx] == s[idx+1]:
+        if idx + 1 != len(s) and s[idx] == s[idx + 1]:
             deletions += 1
 
     return deletions
