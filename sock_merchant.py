@@ -1,5 +1,6 @@
 # EASY
 
+
 def sockMerchant(n, ar):
     counts = {}
 

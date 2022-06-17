@@ -1,5 +1,6 @@
 # EASY
 
+
 def countingValleys(steps, path):
     valleys = 0
     height = 0

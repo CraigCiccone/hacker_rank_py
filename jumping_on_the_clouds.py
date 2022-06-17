@@ -1,5 +1,6 @@
 # EASY
 
+
 def jumpingOnClouds(c):
     path = [0]
     pos = 0
