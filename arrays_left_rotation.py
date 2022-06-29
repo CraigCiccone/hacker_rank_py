@@ -1,11 +1,19 @@
 # EASY
 
+from collections import deque
+
 
 def rotLeft(a, d):
-    for _ in range(d):
-        val = a.pop(0)
-        a.append(val)
-    return a
+    dq = deque(a)
+    dq.rotate(-d)
+    return dq
+
+
+# def rotLeft(a, d):
+#     for _ in range(d):
+#         val = a.pop(0)
+#         a.append(val)
+#     return a
 
 
 if __name__ == "__main__":
